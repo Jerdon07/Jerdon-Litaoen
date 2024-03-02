@@ -1,11 +1,10 @@
 body{
-    background-image: url(../images/bgimg.jpg);
+    background-image: url(../images/bg.jpg);
     background-repeat: no-repeat;
     background-size: 100% auto;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     height: 100%;
-    font-weight: bold;
 }
 
 /* Whole Navigation Bar */
@@ -16,6 +15,7 @@ body{
     padding: 0px 50px;
     font-family: "Poppins", sans-serif;
     position: sticky;
+    font-weight: bold;
 }
 
 /* Website Logo */
@@ -50,37 +50,39 @@ body{
 }
 
 /* Introduction and Picture */
-/* Bug */
-.profEntity{
-    margin: 50px 100px;
-    font-family: 'Arial Black';
-    font-weight: 600;
-    overflow: visible;
-    font-size: 30px;
-} .profEntity header{
+
+
+#paragraph{
     float: left;
-    margin: 0;
-} .profEntity h2{
-    margin-left: 30px;
-} .profEntity h5{
-    margin-left: 20px;
+    width: 50%;
+    color: #f2f2f2;
 }
 
-/* Picture Element */
- .profEntity img{
+.intro{
+    font-family: 'Arial Black';
+    margin: 50px 100px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.description{
+    margin: 0 150px;
+    font-family: 'Arial';
+    font-size: 24px;
+}
+
+#profPic img{
     float: right;
-    height: 200px;
+    height: 350px;
     border-radius: 50%;
     border: 4px solid #000;
-    margin-right: 100px;
+    margin: 100px 200px;
     filter: grayscale(100%);
     transition: 0.5s ease;
-} .profEntity img:hover{
+}
+
+#profPic img:hover{
     transform: scale(1.3);
     filter: grayscale(0%);
     outline-offset: 15px;
-}
-
-#description{
-
 }
