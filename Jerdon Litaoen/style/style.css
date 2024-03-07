@@ -103,16 +103,22 @@ body{
     text-align: center;
 }
 
+.content{
+    
+}
+
 .lists{
     border: 1px solid #a3a1a1;
     border-radius: 15px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 30px;
     margin-top: 10px;
+    display: block;
+    text-decoration: none;
+    
 }
 
-.lists p{
-    padding-left: 15px;
+.lists span{
+    font-size: 100px;
 }
 
 .content a{
