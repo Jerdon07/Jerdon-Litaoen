@@ -103,14 +103,13 @@ body{
     text-align: center;
 }
 
-.content{
-    
-}
-
 .lists{
     border: 1px solid #a3a1a1;
     border-radius: 15px;
-    padding: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 5px;
     margin-top: 10px;
     display: block;
     text-decoration: none;
